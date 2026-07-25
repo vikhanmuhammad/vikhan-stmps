@@ -1,6 +1,6 @@
 const CITY = "Jakarta,ID";
 const FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast";
-const DAILY_TIMESLOT = "12:00:00"; // one reading per day, taken near midday
+const DAILY_TIMESLOT = "12:00:00";
 const DAYS_TO_SHOW = 5;
 
 interface ForecastEntry {
